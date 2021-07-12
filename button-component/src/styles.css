@@ -1,0 +1,232 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#col1 {
+  background-color: #fafbfd;
+  max-width: 237px !important;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  outline: 1px solid red;
+}
+
+#col2 {
+  padding-left: 6rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+#col2 h2 {
+  color: #4f4f4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+footer h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #4f4f4f;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+footer h4 span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.btn-group-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-group {
+  margin-bottom: 1rem;
+}
+
+.btn-group h5 {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+}
+
+.btn-group button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 11rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 6px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.2);
+          box-shadow: 0px 2px 3px 0px rgba(51, 51, 51, 0.2);
+  -webkit-transition: background-color 0.1s ease-in;
+  transition: background-color 0.1s ease-in;
+}
+
+.btn-group button p {
+  margin: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.btn-group button:hover:not(.disabled), .btn-group button:focus:not(.disabled) {
+  background-color: #aeaeae;
+}
+
+.btn-group-long button {
+  margin-right: 20rem;
+}
+
+.text {
+  background-color: #fff !important;
+  border: 0px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.text:hover:not(.disabled), .text:focus:not(.disabled) {
+  background: rgba(41, 98, 255, 0.1) !important;
+}
+
+.disabled {
+  cursor: default !important;
+  background-color: #e0e0e0;
+  color: #9e9e9e !important;
+}
+
+.disabled:hover, .disabled:focus {
+  background-color: !important;
+}
+
+.outline {
+  border: 1px solid #3d5afe !important;
+  color: #3d5afe !important;
+  background-color: #fff !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.outline:hover, .outline:focus {
+  background-color: #eaefff !important;
+}
+
+.text-blue {
+  color: #3d5afe !important;
+}
+
+.disable-shadow {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-sm {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+
+.btn-md {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+.btn-lg {
+  padding-top: 11px !important;
+  padding-bottom: 11px !important;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
+}
+
+.default-color {
+  background: #e0e0e0 !important;
+}
+
+.default-color:hover, .default-color:focus {
+  background-color: #aeaeae !important;
+}
+
+.primary-color {
+  background: #2962ff !important;
+  color: #fff !important;
+}
+
+.primary-color:hover, .primary-color:focus {
+  background: #003acc !important;
+}
+
+.secondary-color {
+  background: #455a63 !important;
+  color: #fff !important;
+}
+
+.secondary-color:hover, .secondary-color:focus {
+  background: #1c313b !important;
+}
+
+.danger-color {
+  background: #d33131 !important;
+  color: #fff !important;
+}
+
+.danger-color:hover, .danger-color:focus {
+  background: #990008 !important;
+}
+
+.focus-neutral {
+  background-color: #aeaeae !important;
+}
+
+.focus-primary {
+  background: #003acc !important;
+  color: #fff !important;
+}
+
+.focus-secondary {
+  background: #1c313b !important;
+  color: #fff !important;
+}
+
+.focus-danger {
+  background: #990008 !important;
+  color: #fff !important;
+}
+
+.focus-outline {
+  background-color: #eaefff !important;
+}
+
+.focus-text {
+  background-color: #eaefff !important;
+}
+/*# sourceMappingURL=styles.css.map */
